@@ -6,6 +6,7 @@ metadata:
   name: web
   namespace: jitsi
 spec:
+  type: LoadBalancer
   ports:
   - name: "http"
     port: 80
